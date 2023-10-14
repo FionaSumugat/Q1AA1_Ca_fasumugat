@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.navbar{
+    top:0;
+    position:fixed;
+    padding:10px;
+    height:5vh;
+    width:100vw;
+    background-color: rgb(255, 211, 192);
+}
+
+.logo img{
+    border:2px solid blanchedalmond;
+    margin-top: -.8vh;
+    border-radius: 360px;
+    height: 45px;
+    margin-left:10vh;
+}
+
+.navbar #links{
+    display:inline;
+}
+
+.navbar #links a{
+    background-color:burlywood;
+    border-radius:5px;
+    padding:1vh;
+    margin-right:2vh;
+    float:right;
+    text-decoration:none;
+    color:white;
+}
+
+.navbar #links #Gallery{
+    margin-right:10vh;
+}
+
+.banner{
+    background-image: url(image/csbannr.png);
+    background-size: cover;
+    padding:5vw;
+    background-color: cornsilk;
+    height: 80vh;
+    width:97vw;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.banner h1{
+    color:rgb(195, 150, 116);
+    font-size:xx-large;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    text-align:left;
+}
+
+.banner span{
+    color:rgb(244, 232, 218);
+}
+
+.banner p{
+    color:rgb(255, 249, 241);
+    font-size:large;
+    padding:3px;
+    margin-top: 10px;
+    margin-bottom:8.5px;
+}
+
+.banner a{
+    text-decoration:none;
+    text-align:left;
+    font-weight:500px;
+}
+
+.banner #lesgo{
+    color:rgb(251, 241, 234); 
+    font-size:large;
+    padding:5px;
+    border-radius:5px;
+    background-color:rgb(197, 156, 125);
+}
+
+.footer{
+    color:rgb(135, 119, 101); 
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color:rgb(255, 211, 192);
+}
+
+.footer .footerlinks a{
+    text-decoration:none;
+    float:right;
+}
+
+.footer .footerlinks img{
+    height:3vh;
+    border-radius:360px;
+    margin-right:5px; 
+}
+
+.gallery{
+    padding:1.5vw;
+    width:90vw;
+    height:9vh;
+    background-position: center;
+    margin-top:60px;
+    text-align:center;
+}
+
+.gallery h1{
+    font-size:45.5px; 
+    color:rgb(185, 131, 111);
+}
+
+.pics img{
+    display:flex;
+    width:20%;
+    position: relative;
+    display:inline-block;
+    margin:10px; 
+    border: 10px outset#ab9685;
+}
